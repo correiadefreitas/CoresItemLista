@@ -1,0 +1,71 @@
+body {
+    background-color: #fefdfd;
+}
+
+a, a:hover, a:active, a:visited {
+    color: initial;
+    text-decoration: none;
+    background-clip: text;
+}
+a:hover {
+    box-shadow: 0px 0px 1px 1px #848484;
+}
+
+
+.ItemLista0  { background-color: #111111; }
+.ItemLista1  { background-color: #261313; }
+.ItemLista2  { background-color: #592400; }
+.ItemLista3  { background-color: #331400; }
+.ItemLista4  { background-color: #4d4439; }
+.ItemLista5  { background-color: #261a00; }
+.ItemLista6  { background-color: #4c3913; }
+.ItemLista7  { background-color: #595300; }
+.ItemLista8  { background-color: #4a4d26; }
+.ItemLista9  { background-color: #0a4d00; }
+.ItemLista10 { background-color: #0d1a0d; }
+.ItemLista11 { background-color: #00330e; }
+.ItemLista12 { background-color: #00593c; }
+.ItemLista13 { background-color: #104036; }
+.ItemLista14 { background-color: #0d2b33; }
+.ItemLista15 { background-color: #2d5059; }
+.ItemLista16 { background-color: #163a59; }
+.ItemLista17 { background-color: #03080d; }
+.ItemLista18 { background-color: #162859; }
+.ItemLista19 { background-color: #120d33; }
+.ItemLista20 { background-color: #211d26; }
+.ItemLista21 { background-color: #29004d; }
+.ItemLista22 { background-color: #502d59; }
+.ItemLista23 { background-color: #4d003d; }
+.ItemLista24 { background-color: #26001f; }
+.ItemLista25 { background-color: #40303d; }
+.ItemLista26 { background-color: #4c131b; }
+
+.ItemLista {
+    mix-blend-mode: difference;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    position: relative;
+    display: inline-block;
+    padding: 7px 5px;
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #848484;
+    vertical-align: middle;
+    line-height: 21px;
+
+    width: 30%;
+
+}
+
+.ItemLista0 {
+    color: #666666;
+    cursor: not-allowed;
+    padding-right: 0;
+}
+
+.ItemListaDistintivo {
+    font-size: 9px;
+    position: absolute;
+    bottom: -5px;
+    right: 3px;
+    font-weight: 100;
+}
